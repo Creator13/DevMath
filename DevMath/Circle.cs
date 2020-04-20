@@ -4,22 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DevMath
-{
-    public class Circle
-    {
-        public Vector2 Position
-        {
-            get; set;
-        }
+namespace DevMath {
+    public class Circle {
+        public Vector2 Position { get; set; }
 
-        public float Radius
-        {
-            get; set;
-        }
+        public float Radius { get; set; }
 
-        public bool CollidesWith(Circle circle)
-        {
+        public bool CollidesWith(Circle circle) {
             throw new NotImplementedException();
         }
     }
